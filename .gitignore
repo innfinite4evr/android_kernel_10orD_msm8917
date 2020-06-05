@@ -99,3 +99,11 @@ all.config
 
 # fetched Android config fragments
 android/configs/android-*.cfg
+
+# cust
+*.sh
+ubertc-6.0
+linaro-7.2
+OUT
+out
+zimage
