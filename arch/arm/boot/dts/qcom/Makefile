@@ -174,7 +174,7 @@ dtb-$(CONFIG_ARCH_SDX20) += sdx20-emmc-cdp.dtb \
 	sdx20-v2-nand-pcie-ep-mtp.dtb
 
 ifeq (1,1)
-dtb-$(CONFIG_ARCH_MSM8937) += msm8937-x50.dtb
+dtb-$(CONFIG_ARCH_MSM8937) += 10orD_N.dtb
 else
 
 dtb-$(CONFIG_ARCH_MSM8937) += msm8937-rumi.dtb \
