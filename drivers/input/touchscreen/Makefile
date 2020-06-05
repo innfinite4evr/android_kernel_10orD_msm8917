@@ -93,3 +93,9 @@ obj-$(CONFIG_TOUCHSCREEN_GT9XX)		+= gt9xx/
 obj-$(CONFIG_TOUCHSCREEN_ILITEK_2120)	+= ilitek_2120/
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_CHIPSET)	+= hxchipset/
 obj-$(CONFIG_TOUCHSCREEN_FTS)		+= focaltech_touch/
+obj-$(CONFIG_TOUCHSCREEN_MSTAR) 	+= mstar/
+obj-y	+= lct_tp_fm_info.o
+obj-y	+= lct_ctp_selftest.o
+obj-y	+= lct_ctp_upgrade.o
+obj-y	+= lct_if_ctp_upgrade.o
+
